@@ -1,0 +1,1 @@
+export {Soma} from "./soma"
