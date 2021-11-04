@@ -1,0 +1,12 @@
+input{
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  font-size: 35px;
+  text-align: center;
+  background-color: #B7C3C7;
+  color: #FFF;
+}
