@@ -9,9 +9,8 @@ export const Soma: React.FC = () => {
         const conta = parseInt(numero1.value) + parseInt(numero2.value)
         const resultadoConta = document.getElementById("numeroTela") as HTMLParagraphElement
         resultadoConta.innerHTML = conta.toString()
-
     }
-    console.log(operacao)
+
     return (
         <div className="App">
             <h1>Calculadora</h1>
