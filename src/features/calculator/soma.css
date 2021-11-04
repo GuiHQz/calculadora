@@ -1,36 +1,48 @@
 *{
-    background-color: rgb(29,33,98);
-  }
+  background-color: #1D2162;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
   
-  * {
-    text-align: center;
-  }
+input{
+  height: 50px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  font-size: 35px;
+  text-align: center;
+  background-color: #B7C3C7;
+  color: #FFF;
+}
   
-  input{
-    height: 50px;
-    width: 140px;
-    border-radius: 5px;
-    border: 0px;
-    outline: 0;
-    margin: 10px;
-    font-size: 35px;
-    text-align: center;
-    background-color: rgb(183,195,200);
-    color: #FFF;
-  }
+h1{
+  color: #FFF
+}
   
-  h1{
-    color: #FFF
-  }
-  
-  button {
-    background-color: rgb(91,141,248);
-    color: #FFF;
-    height: 50px;
-    width: 100px;
-    border: 0px;
-    outline: 0;
-    border-radius: 5px 20px;
-    font-size: 35px;
-  }
+button {
+  background-color: #1E90FF;
+  color: #FFF;
+  height: 50px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 5px 20px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.label{
+  margin: 10px;
+  color: #FFF;
+  font-size: 35px;
+}
+
+.App{
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
   
