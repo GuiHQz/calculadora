@@ -14,7 +14,7 @@ export const Soma : React.FC = () => {
 
     return (
         <div className="App">
-            <h1>Calculadora</h1>
+            <h1>{process.env.REACT_APP_NAME_HOME}</h1>
             <div id="botaoInput">
                 <Input id="n1"/>
                 <Input id="n2"/>
