@@ -1,6 +1,6 @@
 import React from "react";
-import { Input } from '../Input/'
-import './soma.css'
+import { Input } from "features/Input";
+import "./soma.css";
 
 export const Soma : React.FC = () => {
 

@@ -1,1 +1,1 @@
-export {Soma} from "./soma"
+export { Soma } from "./soma"
