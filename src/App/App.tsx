@@ -1,5 +1,5 @@
 import React from 'react';
-import { Soma } from '../features/calculator'
+import { Soma } from 'features/calculator'
 
 function App() {
   return (
